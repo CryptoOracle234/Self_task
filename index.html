@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investment Growth with Crypto Oracle</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Investment Growth with Crypto Oracle</h1>
+    </header>
+
+    <section class="explanation">
+      <h2>About Our Service</h2>
+      <p>Welcome to <strong>Crypto Oracle</strong>, where we help your portfolio grow with AI-analyzed weekly signals. Our premium plan guarantees a 10% growth in your total portfolio value every week, thanks to our 30 expertly curated signals.</p>
+      <p>Join our <a href="https://t.me/The_Crypto_Oracl" target="_blank">Telegram channel</a> to receive these signals and start growing your investments today!</p>
+    </section>
+
+    <section class="chart-section">
+      <h2>Projected Growth Chart</h2>
+      <div class="chart-container">
+        <canvas id="growthChart"></canvas>
+      </div>
+    </section>
+
+    <section class="growth-explanation">
+      <h2>How Your Investment Grows</h2>
+      <p>With our plan, your investment grows by 10% every week. Here's an example of how $500 can grow over time:</p>
+      <ul id="growthList"></ul>
+      <p id="summary"></p>
+    </section>
+
+    <section class="compounding-explanation">
+      <h2>The Power of Compounding</h2>
+      <p>Compounding means that you earn interest not only on your initial investment but also on the accumulated interest from previous periods. This leads to exponential growth over time, maximizing your returns.</p>
+    </section>
+
+    <section class="calculator">
+      <h2>Investment Calculator</h2>
+      <form id="investmentForm">
+        <label for="initialCapital">Enter your initial capital ($):</label>
+        <input type="number" id="initialCapital" name="initialCapital" min="1" value="500" required>
+        <button type="submit">Calculate</button>
+      </form>
+      <div id="calculatedGrowth"></div>
+    </section>
+
+    <footer>
+      <div class="cta">
+        <a href="https://t.me/The_Crypto_Oracl" target="_blank" class="cta-button">Join Our Telegram Channel</a>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
